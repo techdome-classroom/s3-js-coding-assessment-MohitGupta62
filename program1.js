@@ -14,7 +14,7 @@ var isValid = function (s) {
       const topElement = stack.length > 0 ? stack.pop() : "#";
 
       if (matchingBracket[char] !== topElement) {
-        
+        return false
       }
     }
   }

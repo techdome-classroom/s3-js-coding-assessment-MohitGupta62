@@ -21,6 +21,9 @@ const romanMap ={
         if(currentValue < prevValue){
             total -= currentValue;
         }
+        else{
+            total += currentValue;
+        }
     }
 };
 

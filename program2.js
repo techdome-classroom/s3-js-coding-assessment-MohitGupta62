@@ -25,7 +25,7 @@ const romanMap ={
             total += currentValue;
         }
 
-        prevValue currentValue;
+        prevValue = currentValue;
     }
 };
 

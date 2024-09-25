@@ -17,6 +17,8 @@ const romanMap ={
     
     for(let i = s.length -1; i>=0; i-- ){
         const currentValue = romanMap[s[i]];
+
+        if(currentValue< prevValue)
     }
 };
 

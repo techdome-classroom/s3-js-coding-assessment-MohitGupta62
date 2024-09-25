@@ -3,12 +3,12 @@
  * @return {boolean}
  */
 var isValid = function (s) {
+    const stack = [];
   const matchingBracket = {
     ")": "(",
     "}": "{",
     "]": "[",
   };
-  const stack = [];
   for (let char of s) {
     if (char in matchingBracket) {
       const topElement = stack.length ? stack.pop() : "#";

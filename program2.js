@@ -15,7 +15,9 @@ const romanMap ={
     let total = 0;
     let prevValue = 0;
     
-    for(let i = s.lenght -1;  )
+    for(let i = s.lenght -1; i>=0; i-- ){
+        
+    }
 };
 
 

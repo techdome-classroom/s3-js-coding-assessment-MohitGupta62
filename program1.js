@@ -19,7 +19,7 @@ var isValid = function (s) {
         stack.push(char);
       }
     }
-    
+    return stack.length === 0;
   }
 };
 

@@ -16,6 +16,7 @@ var isValid = function (s) {
       if (matchingBracket[char] !== topElement) {
         return false
       }
+      
     }
   }
 };

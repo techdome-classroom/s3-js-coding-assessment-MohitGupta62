@@ -24,6 +24,8 @@ const romanMap ={
         else{
             total += currentValue;
         }
+
+        prevValue currentValue;
     }
 };
 

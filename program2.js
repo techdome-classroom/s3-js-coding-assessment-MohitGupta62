@@ -6,7 +6,7 @@ var romanToInt = function(s) {
 const romanMap ={
     'I' : 1,
     'V' : 5,
-    'x' ;
+    'x' ;10,
 }    
 };
 

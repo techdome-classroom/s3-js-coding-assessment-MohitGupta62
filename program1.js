@@ -15,11 +15,12 @@ var isValid = function (s) {
 
       if (topElement !== matchingBracket[char]) {
         return false;
-      } else {
-        stack.push(char);
       }
+    } else {
+      stack.push(char);
     }
-    return stack.length === 0;
+  }
+  return stack.length === 0;
 };
 
 module.exports = { isValid };

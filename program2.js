@@ -12,7 +12,10 @@ const romanMap ={
     'D' : 500,
     'M' : 1000
 };
-    let    
+    let total = 0;
+    let prevValue = 0;
+    
+    for(let i = s.lenght)
 };
 
 
